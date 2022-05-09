@@ -5,9 +5,8 @@ from typing import List
 # Clase DataModel
 class DataModel(BaseModel):
 
-    label: object
-    study_and_condition: object
-
+    label: str
+    study_and_condition: str
 
     # Columbas usadas 
     def columns():
@@ -15,10 +14,3 @@ class DataModel(BaseModel):
 
 class DataList(BaseModel):
     data: List[DataModel]
-
-class datMod(BaseModel):
-    life_expectancy: float
-    def column():
-        return "Life expectancy"
-class DMpredictVar(BaseModel):
-    dataTrue: List[datMod]
