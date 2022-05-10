@@ -5,6 +5,7 @@
 
 # ### 1. Perfilación y preparación
 from IPython import embed
+from IPython import get_ipython
 # En las siguientes líneas de código se importan las librerías y herramientas necesarias para desarrollar el caso de uso.
 
 # In[1]:
