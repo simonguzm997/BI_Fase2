@@ -22,7 +22,7 @@ function FormSection () {
     }
 
     async function prediccionElegibilidad(datos) {
-        var url = "https://api-pipeline-bi.herokuapp.com/"
+        var url = "https://api-pipeline-bi.herokuapp.com/predict"
         const headers = {
             'Access-Control-Allow-Origin': '*',
             'Content-Type': 'application/json',
