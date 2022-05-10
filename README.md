@@ -26,4 +26,7 @@ Para el funcionamiento del API haremos uso de 1 endpoint, el cuales es:
 
 El endpoint correspondiente a **/predict** se encarga de realizar la predicción para un caso.
 
+## Desplieque de la aplicación en Heroku
+
+https://api-pipeline-bi.herokuapp.com/
 
